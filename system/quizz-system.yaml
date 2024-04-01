@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: quizz-app
+  description: System to create quizzes for users
+spec:
+  owner: user:TigreDoMexico
+  domain: personal-projects

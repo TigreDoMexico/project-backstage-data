@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: birthday-manager
+  description: System to manage birthdays
+spec:
+  owner: user:TigreDoMexico
+  domain: personal-projects
