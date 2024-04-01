@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: study-projects
+  description: All systems used only for study purpose
+spec:
+  owner: user:TigreDoMexico
+  domain: personal-projects
