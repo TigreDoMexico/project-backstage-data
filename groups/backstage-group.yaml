@@ -1,4 +1,11 @@
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: TigreDoMexico
+spec:
+  memberOf: [backstage]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: backstage
@@ -7,14 +14,6 @@ spec:
   type: team
   profile:
     displayName: Backstage Group
-    email: davidtigremoraes@example.com
+    email: davidtigremoraes@gmail.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundColor=ffdfbf
   children: []
-
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: TigreDoMexico
-spec:
-  memberOf: [backstage]
