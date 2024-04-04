@@ -7,4 +7,3 @@ spec:
   type: url
   targets:
     - https://github.com/TigreDoMexico/template-node-ts/blob/main/template.yaml
-    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/springboot-grpc-template/template.yaml
